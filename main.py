@@ -75,6 +75,7 @@ def convert_total_men_coice(total_men_choice):
 
     return tot_choice
 
+# Utility function to load the data from the CSV file
 def load_data():
     # Load the CSV data into a pandas DataFrame
     return pd.read_csv('Task4a_data.csv')
